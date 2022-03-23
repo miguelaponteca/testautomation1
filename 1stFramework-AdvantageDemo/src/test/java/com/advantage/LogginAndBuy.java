@@ -26,6 +26,7 @@ public class LogginAndBuy {
         Thread.sleep(10000);
         driver.findElement(By.xpath("//*[@id='menuUser']")).click();
         Thread.sleep(3000);
+        System.out.println("Prueba");
         driver.findElement(By.xpath("//input[@name='username']")).sendKeys("test123");
         driver.findElement(By.xpath("//input[@name='password']")).sendKeys("Test123");
         driver.findElement(By.xpath("//*[@id='sign_in_btnundefined']")).click();
